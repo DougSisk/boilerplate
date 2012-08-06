@@ -57,15 +57,13 @@ Now create a folder somewhere. For me, I keep my local sites in the `/Users/MyUs
 
 Once you do that open up the `/Applications/XAMPP/etc/extra/httpd-vhosts.conf` file again. Below the first `VirtualHost` section add another one using this:
 
-<pre>
-<VirtualHost *>
-    DocumentRoot "/Users/MyUserName/Sites/"
-    ServerName test.dev
-</VirtualHost>
-</pre>
+	<VirtualHost *>
+	    DocumentRoot "/Users/MyUserName/Sites/"
+	    ServerName test.dev
+	</VirtualHost>
 
 Now either `mate /etc/hosts` in terminal to open it in TextMate or find it in finder and open with your text editor of choice. Add this line to the file:
 
-        127.0.0.1 test.dev
+	127.0.0.1 test.dev
 
 You're all set now! Just start/restart XAMPP's Apache and put the boilerplate files in your `/Users/MyUserName/Sites/test` directory at [test.dev](http://test.dev).
