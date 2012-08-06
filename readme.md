@@ -15,8 +15,8 @@ This boilerplate assumes you're using a Mac and are willing to setup a virtual h
 
 I use [XAMPP](http://www.apachefriends.org/en/xampp.html) as my local server. Once you install XAMMP, open `/Applications/XAMPP/etc/httpd.conf`. Find the following lines in the file:
 
-        # Virtual hosts
-        #Include /Applications/XAMPP/etc/extra/httpd-vhosts.conf
+	# Virtual hosts
+	#Include /Applications/XAMPP/etc/extra/httpd-vhosts.conf
 
 Uncomment (remove the `#`) the `#Include /Applications/XAMPP/etc/extra/httpd-vhosts.conf` line.
 
