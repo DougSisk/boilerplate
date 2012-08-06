@@ -22,7 +22,7 @@ Uncomment (remove the `#`) the `#Include /Applications/XAMPP/etc/extra/httpd-vho
 
 Now open the `/Applications/XAMPP/etc/extra/httpd-vhosts.conf` file. Copy and paste this:
 
-<pre>
+<code>
 #
 # Virtual Hosts
 #
@@ -53,7 +53,7 @@ NameVirtualHost *
     DocumentRoot "/Applications/XAMPP/xamppfiles/htdocs"
     ServerName localhost
 </VirtualHost>
-</pre>
+</code>
 
 Now create a folder somewhere. For me, I keep my local sites in the `/Users/MyUserName/Sites` directory. Of course, you'll replace `MyUserName` with your username. For this, I'll create a folder named `test`. So my full directory location is `/Users/MyUserName/Sites/test`.
 
